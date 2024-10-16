@@ -1,9 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
+body, html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 :root{
     --main-color: #084262;
     --second-color: #F28301;
@@ -75,6 +80,39 @@
     .icon{
         display: none;
     }
+
+    .col-md-6{
+        text-align: center;
+    }
+
+    .imagen{
+       height: auto;
+       width: 40vh;
+       padding-top:20px;
+    }
+
+    h3, p{
+        text-align: center;
+    }
+
+    .row-resp{
+        .col{
+           margin: 10px;
+        }
+    }
+
+    .text-resp{
+        text-align: start;
+        text-justify: auto;
+        padding-bottom: 5px;
+    }
+
+    .padding{
+       padding-left: 4rem !important;
+    }
+
+   
+
 }
 
 @media screen and (max-width: 601px) and (max-width: 900px){
