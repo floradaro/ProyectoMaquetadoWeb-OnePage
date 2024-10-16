@@ -71,5 +71,23 @@
     background-color: white;
 }
 
+@media screen and (max-width: 600px){
+    .icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 601px) and (max-width: 900px){
+    .icon{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 901px){
+    .icon{
+        display: none;
+    }
+}
 
 
